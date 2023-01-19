@@ -1,3 +1,6 @@
+import '@/styles/globals.css';
+import EmotionRegistry from '@/app/registry';
+
 export default function RootLayout({
   children,
 }: {
@@ -6,7 +9,9 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body>{children}</body>
+      <body>
+        <EmotionRegistry>{children}</EmotionRegistry>
+      </body>
     </html>
   );
 }
