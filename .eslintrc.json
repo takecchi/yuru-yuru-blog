@@ -10,16 +10,15 @@
     "plugin:import/typescript",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "next/core-web-vitals",
     "prettier"
   ],
-  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "./tsconfig.json",
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": "latest",
-    "sourceType": "module"
+    "ecmaVersion": "latest"
   },
   "ignorePatterns": [
     "node_modules/*",
@@ -29,7 +28,6 @@
   "plugins": [
     "react",
     "react-hooks",
-    "@typescript-eslint",
     "import"
   ],
   "rules": {
