@@ -17,8 +17,9 @@
     }
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.11.4",
-    "@mui/styled-engine": "^5.11.0",
     "@next/font": "13.1.1",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
@@ -34,7 +35,6 @@
     "@typescript-eslint/parser": "^5.48.1",
     "eslint-config-next": "^13.1.2",
     "eslint-config-prettier": "^8.6.0",
-    "eslint-config-standard": "^17.0.0",
     "eslint-import-resolver-typescript": "^3.5.3",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
