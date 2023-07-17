@@ -10,6 +10,7 @@ const StyledNav = styled('nav')`
 `;
 
 const StyledUl = styled('ul')`
+  display: flex;
   list-style: none;
   justify-content: flex-start;
 `;

@@ -1,13 +1,13 @@
 import EmotionRegistry from '@/components/ThemeRegistry/Registry';
-import Header from '@/app/Header';
-import Footer from '@/app/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import '@/styles/globals.css';
 import { ReactNode } from 'react';
-import Nav from '@/app/Nav';
+import Nav from '@/components/Nav';
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html>
+    <html lang={'ja'}>
       <head />
       <body>
         <EmotionRegistry>
