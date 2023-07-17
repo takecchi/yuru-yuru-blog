@@ -1,4 +1,4 @@
-import EmotionRegistry from '@/app/Registry';
+import EmotionRegistry from '@/components/ThemeRegistry/Registry';
 import Header from '@/app/Header';
 import Footer from '@/app/Footer';
 import '@/styles/globals.css';
