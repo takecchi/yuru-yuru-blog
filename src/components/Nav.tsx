@@ -3,20 +3,25 @@
 import { styled } from '@mui/material';
 
 const StyledNav = styled('nav')`
-  display: flex;
   background-color: #333f49;
-  text-transform: uppercase;
-  margin: 0 auto;
 `;
 
 const StyledUl = styled('ul')`
   display: flex;
   list-style: none;
   justify-content: flex-start;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  min-height: 51px;
 `;
 
 const StyledLi = styled('li')`
   font-weight: 700;
+  margin: auto;
+  cursor: pointer;
+  user-select: none;
 `;
 
 const Nav = () => {
