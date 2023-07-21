@@ -4,5 +4,11 @@
     "config:base"
   ],
   "timezone": "Asia/Tokyo",
+  "schedule": [
+    "before 10pm on Friday"
+  ],
+  "vulnerabilityAlerts": {
+    "labels": ["security"]
+  },
   "automerge": false
 }
